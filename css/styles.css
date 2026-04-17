@@ -1,0 +1,92 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { background-color: #e8e8e8; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+body.home { background-color: #f5f5f5; }
+
+/* Headers*/
+h1 { color: #1a1a1a; margin-top: 0; font-size: 40px; font-weight: 700; letter-spacing: 0.5px; }
+h2 { color: #0047ab; margin: 30px 0 20px; font-size: 28px; font-weight: 600; letter-spacing: 0.3px; }
+h3 { color: #1a5490; margin: 25px 0 15px; font-size: 22px; font-weight: 600; }
+
+/* Paragraphs */
+p { color: #333333; line-height: 1.8; margin-bottom: 20px; font-size: 17px; font-family: 'Georgia', 'Times New Roman', serif; }
+
+/* Body */
+body > h1 { text-align: center; font-size: 40px; color: white; background: linear-gradient(135deg, #000066 0%, #000099 100%); padding: 30px 25px; margin-bottom: 20px; border-radius: 0; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); }
+body > p { text-align: center; font-size: 18px; color: #333; margin: 20px 10px; line-height: 1.6; }
+body > a { text-align: center; display: block; color: white; font-weight: 600; text-decoration: none; margin: 30px auto; background-color: #0066cc; padding: 15px 30px; border-radius: 6px; transition: all 0.3s ease; font-size: 18px; max-width: 400px; }
+body > a:hover { background-color: #ff6b35; color: white; transform: translateY(-3px); box-shadow: 0 6px 16px rgba(255, 107, 53, 0.4); }
+body > a:visited { color: white; }
+
+/* Main*/
+main { background-color: white; padding: 50px; margin: 30px auto; max-width: 75%; border: 1px solid #e0e0e0; border-radius: 12px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); }
+main h1 { text-align: center; color: #1a1a1a; margin-bottom: 30px; font-size: 36px; }
+main h2 { padding-bottom: 18px; border-bottom: 4px solid #0066cc; margin-top: 40px; }
+
+/* Navigation styling */
+nav { background: linear-gradient(135deg, #000066 0%, #000099 100%); padding: 12px 30px; margin-bottom: 0; display: flex; align-items: center; border-radius: 0; box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); }
+nav a { color: white; margin-right: 35px; font-size: 16px; text-decoration: none; font-weight: 500; transition: all 0.3s ease; padding: 6px 12px; border-radius: 4px; }
+nav a:hover { color: #ffd700; background-color: rgba(255, 255, 255, 0.15); transform: scale(1.05); }
+nav a:visited { color: white; }
+
+/* Ensure nav styling is consistent inside and outside main */
+main nav { background: linear-gradient(135deg, #000066 0%, #000099 100%); padding: 12px 30px; margin-bottom: 20px; display: flex; align-items: center; border-radius: 0; box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); }
+main nav a { color: white; margin-right: 35px; font-size: 16px; text-decoration: none; font-weight: 500; transition: all 0.3s ease; padding: 6px 12px; border-radius: 4px; }
+main nav a:hover { color: #ffd700; background-color: rgba(255, 255, 255, 0.15); transform: scale(1.05); }
+main nav a:visited { color: white; }
+
+/* Figure and images */
+figure { margin-top: 40px; padding: 30px; background: linear-gradient(135deg, #f8f8f8 0%, #f0f0f0 100%); border: 3px solid #d0d0d0; width: fit-content; margin-left: auto; margin-right: auto; border-radius: 12px; box-shadow: 0 6px 12px rgba(0, 0, 0, 0.12); }
+figure img { padding: 12px; border: 3px solid #999; width: 400px; border-radius: 6px; transition: transform 0.3s ease; background: white; }
+figure img:hover { transform: scale(1.08); box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); }
+figure img.breed-image-small { width: 300px; }
+figcaption { text-align: center; font-size: 14px; color: #666; margin-top: 15px; margin-bottom: 5px; font-style: italic; }
+figcaption p { color: #666; margin: 8px 0; font-size: 13px; line-height: 1.5; }
+
+/* Links with hover effects */
+a { color: #0066cc; text-decoration: none; font-weight: 600; transition: all 0.3s ease; }
+a:hover { color: #978984; text-decoration: underline; }
+a:visited { color: #663366; }
+
+/* List items */
+ul { margin-left: 40px; margin-bottom: 25px; padding-left: 0; }
+ul li { margin-bottom: 18px; color: #333333; font-size: 17px; line-height: 1.8; padding-left: 10px; }
+ul li::before { content: "▸ "; color: #0066cc; font-weight: bold; margin-right: 8px; font-size: 18px; }
+
+/* Back link styling */
+.back-link { display: inline-block; margin-bottom: 30px; margin-top: 5px; color: #0066cc; text-decoration: none; font-weight: 600; padding: 10px 15px; border-left: 5px solid #0066cc; padding-left: 12px; transition: all 0.3s ease; }
+.back-link:hover { color: #948e8b; padding-left: 18px; border-left-color: #d1cac7; }
+
+/* Citations */
+cite { font-size: 13px; color: #777; border-top: 2px solid #e0e0e0; padding-top: 20px; display: block; margin-top: 30px; font-style: italic; }
+
+/* Table styling */
+table { width: 100%; border-collapse: collapse; margin-top: 30px; margin-bottom: 30px; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08); }
+thead { background: linear-gradient(135deg, #000066 0%, #000099 100%); color: white; text-align: left; font-weight: 600; }
+th { padding: 16px; font-size: 16px; letter-spacing: 0.5px; }
+td { padding: 14px 16px; border-bottom: 1px solid #e8e8e8; font-size: 15px; }
+tbody tr { transition: background-color 0.3s ease; }
+tbody tr:nth-child(even) { background-color: #f9f9f9; }
+tbody tr:hover { background-color: #e6f3ff; }
+tbody tr:hover td { color: #0047ab; font-weight: 500; }
+tbody tr td:first-child { font-weight: 600; color: #0066cc; }
+
+/* Sections */
+section { margin-bottom: 50px; padding: 30px 0; border-radius: 8px; }
+section h2 { text-align: center; border-bottom: 4px solid #0066cc; padding-bottom: 20px; color: #0047ab; }
+
+/* Footer */
+footer { text-align: center; margin-top: 50px; padding-top: 30px; border-top: 2px solid #d0d0d0; color: #666; font-size: 14px; line-height: 1.8; }
+
+/* media design */
+@media (max-width: 768px) { 
+    h1 { font-size: 32px; } 
+    h2 { font-size: 24px; } 
+    main { padding: 20px; max-width: 95%; margin: 15px auto; } 
+    nav { padding: 12px 15px; } 
+    nav a { margin-right: 15px; font-size: 15px; } 
+    th, td { padding: 12px 8px; font-size: 14px; }
+    figure img { width: 100%; }
+    figure img.breed-image-small { width: 100%; }
+    ul { margin-left: 25px; }
+    body > h1 { font-size: 32px; padding: 20px; }
+}
