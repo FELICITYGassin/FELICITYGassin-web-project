@@ -20,7 +20,7 @@ openFormBtn.addEventListener('click', function() {
 
 // event listener for form submission
 catForm.addEventListener('submit', function(event) {
-    event.preventDefault(); // Prevent default form submission
+    event.preventDefault();
     
     // User input
     const userName = nameInput.value.trim();
@@ -30,7 +30,7 @@ catForm.addEventListener('submit', function(event) {
     greetingMessage.textContent = `Thank you, ${userName}!`;
     
     // Thank you message with their comment
-    thankYouText.innerHTML = `We appreciate you sharing your thoughts about your favorite cat breed:<br><br><em>"${userComment}"</em><br><br>Your feedback has been received!`;
+    thankYouText.innerHTML = `Thank you for sharing your favorite cat breed:<br><br><em>"${userComment}"</em><br><br>-Cat Hub!`;
     
     // Hide form and show thank you message
     catForm.style.display = 'none';
