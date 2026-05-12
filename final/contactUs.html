@@ -1,0 +1,83 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="description" content="Contact GreenTech Solutions for sustainable technology consultations and product information.">
+    <meta name="keywords" content="contact GreenTech, sustainable technology support, green tech consultation">
+    <title>Contact GreenTech Solutions</title>
+    <link rel="stylesheet" href="../css/greenStyles.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+    <header class="container">
+      <div class="brand-bar">
+        <div class="brand-title">
+          <div class="brand-logo">
+            <img src="../Images/MyOwnWebsiteTitle.png" alt="GreenTech Solutions">
+          </div>
+        </div>
+        <nav class="primary-nav" aria-label="Primary site navigation">
+          <a href="index.html">The Final</a>
+          <a href="aboutUs.html">About</a>
+          <a href="productService.html">Products</a>
+          <a href="blogResources.html">Resources</a>
+          <a href="contactUs.html">Contact</a>
+        </nav>
+        <button id="contrast-toggle" class="theme-toggle" aria-pressed="false" aria-label="Toggle high contrast mode for better visibility">High contrast</button>
+      </div>
+    </header>
+
+    <main id="main-content" class="container">
+      <section class="section-intro">
+        <h1>Get in touch</h1>
+        <p>
+          Connect with GreenTech Solutions to learn how our products and services can reduce your environmental impact while improving business performance.
+        </p>
+      </section>
+
+      <div class="contact-card">
+        <article>
+          <h2>Our office</h2>
+          <p>123 Green Street<br>Green City, NM 87108</p>
+          <p><strong>Email:</strong> <a href="mailto:info@greentechsolutions.com">info@greentechsolutions.com</a><br><strong>Phone:</strong> 
+            <a href="tel:+15035550123">+1 (505) 555-0123</a></p>
+        </article>
+        <article>
+          <h2>Talk to our team</h2>
+          <form id="contact-form">
+            <div class="form-grid">
+              <label for="contact-name">
+                Name <span aria-hidden="true">*</span>
+                <input type="text" id="contact-name" name="contact-name" required aria-describedby="name-help" aria-invalid="false">
+                <span id="name-help" class="visually-hidden">Enter your full name</span>
+              </label>
+              <label for="contact-email">
+                Email <span aria-hidden="true">*</span>
+                <input type="email" id="contact-email" name="contact-email" required aria-describedby="email-help" aria-invalid="false">
+                <span id="email-help" class="visually-hidden">Enter your email address for contact purposes</span>
+              </label>
+              <label for="contact-message">
+                Message <span aria-hidden="true">*</span>
+                <textarea id="contact-message" name="contact-message" required aria-describedby="message-help" aria-invalid="false"></textarea>
+                <span id="message-help" class="visually-hidden">Describe your inquiry or request for consultation</span>
+              </label>
+            </div>
+            <div class="form-actions">
+              <button type="submit" class="btn btn-primary" aria-describedby="contact-submit-help">Send message</button>
+              <span id="contact-submit-help" class="visually-hidden">Click to send your contact message to our team</span>
+              <a href="productService.html" class="btn btn-secondary" aria-describedby="view-services-help">View services</a>
+              <span id="view-services-help" class="visually-hidden">Navigate to our products and services page</span>
+            </div>
+            <p id="contact-response" aria-live="polite" role="status"></p>
+          </form>
+        </article>
+      </div>
+    </main>
+
+    <footer class="container">
+      <p>GreenTech Solutions -ICT280 Final Project • Ready to support your sustainability goals</p>
+      <p><a href="index.html">Back to home</a> • <a href="blogResources.html">Explore resources</a> - All images are borrowed from Adobe Stock</p>
+    </footer>
+
+    <script src="../javascript/greenScript.js"></script>
+  </body>
+</html>
